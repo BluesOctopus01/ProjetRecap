@@ -22,7 +22,7 @@ public class Moteur
     {
         allume = false;
     }
-    public bool EstAllumer()
+    public bool EstAllume()
     {
         return allume;
     }
