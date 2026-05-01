@@ -18,7 +18,7 @@ public class Bus : Vehicule, ILocalisable
     public override void Demarrer()
     {
         DemarrerMoteur();
-        string zone = estEnZonePayante ? "payante" : "gratuit";
+        string zone = estEnZonePayante ? "payante" : "gratuite";
         Console.WriteLine($"Bus{Numero} prêt - zone {zone}");
     }
 
