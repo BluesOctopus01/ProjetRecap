@@ -36,6 +36,10 @@ public abstract class Vehicule
     {
         Vitesse -= decrement;
     }
+    protected void DemarrerMoteur()
+    {
+        moteur.Demarrer();
+    }
     public abstract void Demarrer();
     public abstract string GetTypeVehicule();
     public void AfficherEtat()
